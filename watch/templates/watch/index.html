@@ -1,0 +1,92 @@
+{% extends 'watch/base.html' %}
+{% block title %}All Brand{% endblock %}
+
+{% block carousel %}
+<div id="carouselBlk">
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			{% for carousel in carousel_list %}
+		  <div class="item {% if forloop.first %}active{% endif %}">
+		  <div class="container">
+			<a href="register.html"><img style="width:100%" src="/media/{{ carousel.bg }}" alt="special offers"/></a>
+			<div class="carousel-caption">
+				  <h4>{{ carousel.name }}</h4>
+				  <p>{{ carousel.des }}</p>
+				</div>
+		  </div>
+		  </div>
+			{% endfor %}
+		</div>
+		{% if carousel.count > 1 %}
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		{% endif %}
+	</div>
+</div>
+{% endblock %}
+{% block body %}
+		<div class="span9">
+			<div class="well well-small">
+			<h4>Featured Products <small class="pull-right">{{ feature_list.count }} featured products</small></h4>
+			<div class="row-fluid">
+			<div id="featured" class="carousel slide">
+			<div class="carousel-inner">
+
+				{% for watch in feature_list %}
+				{% if forloop.first %}
+				<div class="item active">
+				  <ul class="thumbnails">
+				{% endif %}
+
+			  	{% if forloop.counter0|divisibleby:"4" %}
+				<div class="item">
+				  	<ul class="thumbnails">
+				{% endif %}
+
+					<li class="span3">
+					  <div class="thumbnail">
+					  <i class="tag"></i>
+						<a href="/watch/{{ watch.id }}"><img src="/media/{{ watch.pic }}" alt=""></a>
+						<div class="caption">
+						  <h5>{{ watch.name }}</h5>
+						  <h4><a class="btn" href="/watch/{{ watch.id }}">VIEW</a> <span class="pull-right">$222.00</span></h4>
+						</div>
+					  </div>
+					</li>
+				{% if forloop.first or forloop.counter0|divisibleby:"4" %}
+			  		</ul>
+				</div>
+			  	{% endif %}
+				{% endfor %}
+			</div>
+			<a class="left carousel-control" href="#featured" data-slide="prev">‹</a>
+			<a class="right carousel-control" href="#featured" data-slide="next">›</a>
+			</div>
+			</div>
+			</div>
+		</div>
+		<h4>Latest Products </h4>
+			  <ul class="thumbnails">
+				  {% for watch in latest_list %}
+				  <li class="span3">
+					  <div class="thumbnail">
+						<a  href="/watch/{{ watch.id }}"><img src="/media/{{ watch.pic }}" alt=""/></a>
+						<div class="caption">
+						  <h5>{{ watch.name }}</h5>
+						  <p>
+							Lorem Ipsum is simply dummy text.
+						  </p>
+
+						  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+						</div>
+					  </div>
+				  </li>
+				  {% endfor %}
+
+			  </ul>	
+
+		</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
