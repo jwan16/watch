@@ -2,91 +2,159 @@
 {% block title %}All Brand{% endblock %}
 
 {% block carousel %}
-<div id="carouselBlk">
-	<div id="myCarousel" class="carousel slide">
-		<div class="carousel-inner">
-			{% for carousel in carousel_list %}
-		  <div class="item {% if forloop.first %}active{% endif %}">
-		  <div class="container">
-			<a href="register.html"><img style="width:100%" src="/media/{{ carousel.bg }}" alt="special offers"/></a>
-			<div class="carousel-caption">
-				  <h4>{{ carousel.name }}</h4>
-				  <p>{{ carousel.des }}</p>
+<div class="fh5co-slider">
+	<div class="owl-carousel owl-carousel-fullwidth">
+		<div class="item" style="background-image:url(media/images/slide_1.jpg)">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="fh5co-owl-text-wrap">
+							<div class="fh5co-owl-text text-center to-animate">
+								<h1 class="fh5co-lead">18 Watch</h1>
+								<h2 class="fh5co-sub-lead">Walk the Talk, <br> Watch the Watch</h2>
+							</div>
+						</div>
+					</div>
 				</div>
-		  </div>
-		  </div>
-			{% endfor %}
+			</div>
 		</div>
-		{% if carousel.count > 1 %}
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-		{% endif %}
+		<div class="item" style="background-image:url(media/images/slide_2.jpg)">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="fh5co-owl-text-wrap">
+							<div class="fh5co-owl-text text-center to-animate">
+								<h1 class="fh5co-lead">A Digital Studio</h1>
+								<h2 class="fh5co-sub-lead">Booster is a free responsive HTML5 template using bootstrap released under Creative Commons 3.0. Lovely crafted by <a href="#">FREEHTML5.co</a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </div>
+
+<div class="row">
+	<div class="col-md-3 text-center" style="background-color:#9C8D8A; height:200px; ">hih</div>
+	<div class="col-md-3 text-center" style="background-color:#F9F4EE; height:200px; ">hi</div>
+	<div class="col-md-3 text-center" style="background-color:#EDE7E7; height:200px; ">hi</div>
+	<div class="col-md-3 text-center" style="background-color:#E72E2C; height:200px; ">hi</div>
+</div>
+
+<div class="container" style="padding-top:40px">
+
+
+    <div class="span12">
+        <div id="tab" class="btn-group" data-toggle="buttons-radio">
+          <a href="#new_release" class="btn btn-large btn-info active" data-toggle="tab">New Release</a>
+          <a href="#most_popular" class="btn btn-large btn-info"  data-toggle="tab">Most Popular</a>
+        </div>
+
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="new_release">
+				<div class="container">
+					<div class="row" style="padding-top:25px">
+						{% for watch in feature_list %}
+						<div class="col-xs-6 col-sm-3">
+							<div class="card">
+								<a class="img-card" href="http://www.fostrap.com/">
+									<img src="media/{{ watch.pic }}"/>
+								</a>
+								<br />
+								<div class="card-content">
+									<h4 class="card-title">
+										<a href="http://www.fostrap.com/">
+											{{ watch.name }}
+										</a>
+									</h4>
+									<div class="">
+										{{ watch.pub_date }}
+										New Delhi, 2005, Petrol
+									</div>
+								</div>
+								<div class="card-read-more">
+									<a class="btn btn-link btn-block" href="http://www.fostrap.com/">
+										VIEW DETAIL
+									</a>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+
+				</div>
+
+            </div>
+
+            <div class="tab-pane" id="most_popular">
+                 <div class="container">
+					<div class="row" style="padding-top:25px">
+						{% for watch in latest_list %}
+						<div class="col-xs-6 col-sm-3">
+							<div class="card">
+								<a class="img-card" href="http://www.fostrap.com/">
+									<img src="media/{{ watch.pic }}"/>
+								</a>
+								<br />
+								<div class="card-content">
+									<h4 class="card-title">
+										<a href="http://www.fostrap.com/">
+											{{ watch.name }}
+										</a>
+									</h4>
+									<div class="">
+										New Delhi, 2005, Petrol
+									</div>
+								</div>
+								<div class="card-read-more">
+									<a class="btn btn-link btn-block" href="http://www.fostrap.com/">
+										VIEW DETAIL
+									</a>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
 {% block body %}
-		<div class="span9">
-			<div class="well well-small">
-			<h4>Featured Products <small class="pull-right">{{ feature_list.count }} featured products</small></h4>
-			<div class="row-fluid">
-			<div id="featured" class="carousel slide">
-			<div class="carousel-inner">
 
-				{% for watch in feature_list %}
-				{% if forloop.first %}
-				<div class="item active">
-				  <ul class="thumbnails">
-				{% endif %}
 
-			  	{% if forloop.counter0|divisibleby:"4" %}
-				<div class="item">
-				  	<ul class="thumbnails">
-				{% endif %}
-
-					<li class="span3">
-					  <div class="thumbnail">
-					  <i class="tag"></i>
-						<a href="/watch/{{ watch.id }}"><img src="/media/{{ watch.pic }}" alt=""></a>
-						<div class="caption">
-						  <h5>{{ watch.name }}</h5>
-						  <h4><a class="btn" href="/watch/{{ watch.id }}">VIEW</a> <span class="pull-right">$222.00</span></h4>
+	<div class="fh5co-bg-section" style="background-image: url(media/images/slide_2.jpg); background-attachment: fixed;">
+		<div class="fh5co-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro text-center">
+							<h2 class="fh5co-lead">OUR BRANDS</h2>
+							<ul class="brand_list">{% for brand in brand_list %}
+								<li><img style="width:50px; height:50px" src="/media/{{ brand.logo }}" >{% endfor %}</li>
+							</ul>
 						</div>
-					  </div>
-					</li>
-				{% if forloop.first or forloop.counter0|divisibleby:"4" %}
-			  		</ul>
+					</div>
 				</div>
-			  	{% endif %}
-				{% endfor %}
 			</div>
-			<a class="left carousel-control" href="#featured" data-slide="prev">‹</a>
-			<a class="right carousel-control" href="#featured" data-slide="next">›</a>
-			</div>
-			</div>
-			</div>
-		</div>
-		<h4>Latest Products </h4>
-			  <ul class="thumbnails">
-				  {% for watch in latest_list %}
-				  <li class="span3">
-					  <div class="thumbnail">
-						<a  href="/watch/{{ watch.id }}"><img src="/media/{{ watch.pic }}" alt=""/></a>
-						<div class="caption">
-						  <h5>{{ watch.name }}</h5>
-						  <p>
-							Lorem Ipsum is simply dummy text.
-						  </p>
-
-						  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
-						</div>
-					  </div>
-				  </li>
-				  {% endfor %}
-
-			  </ul>	
-
-		</div>
 		</div>
 	</div>
 </div>
 {% endblock %}
+
+
+
+
+
+
+
+

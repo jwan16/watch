@@ -13,5 +13,5 @@ urlpatterns = [
     url(r'^$', index_view, name='index'),
     url(r'^watch/$', watch_list, name='watch'),
     url(r'^watch/(?P<pk>[0-9]+)$', detail_list.as_view(), name='detail'),
-    url(r'^watch/sort$', 'articles.views.sort_watch')
+    # url(r'^search/$', search_name)
 ]

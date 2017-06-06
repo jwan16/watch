@@ -1,0 +1,24 @@
+
+{% if watch_list.count > 0 %}
+
+{% for watch in watch_list %}
+
+    <li class="span3" style="width:195px">
+      <div class="thumbnail">
+
+        <img src="/media/{{ watch.pic }}" alt=""/>
+        <div class="caption">
+          <h5>{{ watch.name }}</h5>
+          <p>
+            {{ watch.watch_brand }}
+          </p>
+           <h4 style="text-align:center"> </a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&dollar;{{ watch.price }}</a></h4>
+        </div>
+      </div>
+    </li>
+{% endfor %}
+
+{% else %}
+<li>None to show!</li>
+
+{% endif %}

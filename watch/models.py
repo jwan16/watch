@@ -8,24 +8,26 @@ class Brand(models.Model):
     origin =  models.CharField(max_length=100)
     logo =  models.FileField()
 
+    def __str__(self):
+        return self.name
     def get_absolute_url(self):
         return reverse('watch:detail', kwargs={'pk': self.pk})
 
-    def __str__(self):
-        return self.name
+
 
 class Watch(models.Model):
-    watch_brand = models.ForeignKey(Brand, on_delete=models.CASCADE)
-    name =  models.CharField(max_length=50)
-    year =  models.CharField(max_length=10)
-    price = bracelet_material = models.CharField(max_length=15)
-    code = models.CharField(max_length=20)
-    ref_no = models.CharField(max_length=30)
-    movement = models.CharField(max_length=50, choices=(('automatic', 'Automatic'),('manual', 'Manual'),('quartz', 'Quartz')))
-    case_material = models.CharField(max_length=30)
-    bracelet_material = models.CharField(max_length=30)
-    bracelet_color = models.CharField(max_length=30)
-    bracelet_length = models.CharField(max_length=30)
+    watch_brand = models.ForeignKey(Brand, on_delete=models.CASCADE, verbose_name="Brand")
+    name =  models.CharField(max_length=50, verbose_name="Name")
+    year =  models.CharField(max_length=10, verbose_name="Year")
+    price = bracelet_material = models.CharField(max_length=15, verbose_name="Price")
+    code = models.CharField(max_length=20, verbose_name="Code")
+    ref_no = models.CharField(max_length=30, verbose_name="Ref. No.")
+    type = models.CharField(max_length=50, verbose_name="Type", choices=(('all', 'All'),('men', "Men's"),('women', "Women's")))
+    movement = models.CharField(max_length=50, verbose_name="Movement", choices=(('automatic', 'Automatic'),('manual', 'Manual'),('quartz', 'Quartz')))
+    case_material = models.CharField(max_length=30, verbose_name="Case Material")
+    bracelet_material = models.CharField(max_length=30, verbose_name="Bracelet Material")
+    bracelet_color = models.CharField(max_length=30, verbose_name="Bracelet Color")
+    bracelet_length = models.CharField(max_length=30, verbose_name="Bracelet Length")
     pic = models.ImageField()
     large_pic = models.FileField()
     featured = models.BooleanField()
@@ -33,6 +35,8 @@ class Watch(models.Model):
 
     def __str__(self):
         return self.name
+
+
 
 class Carousel(models.Model):
     name = models.CharField(max_length=100)
