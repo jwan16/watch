@@ -93,8 +93,7 @@ def filter(request):
     selected_brand = request.POST.getlist('selected_brand[]')
     filter_price_max = request.POST['filter_price_max']
     filter_price_min = request.POST['filter_price_min']
-    print(filter_price_max)
-    print(filter_price_min)
+
     filtered_list = filtered_list.filter(price__gt = filter_price_min)
     # if selected_color:
     #     filtered_list = filtered_list.filter(color__in = selected_color)
