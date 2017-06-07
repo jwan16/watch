@@ -9,6 +9,8 @@ from django.shortcuts import render_to_response
 from django.db.models import Q
 import operator
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+import json
+from functools import reduce
 
 # class IndexView(generic.ListView):
 #     template_name = 'watch/index.html'
@@ -34,6 +36,7 @@ def index_view(request):
 def watch_list(request):
     brand_list = Brand.objects.all()
     watch_list = Watch.objects.all()
+    color_list = Watch.objects.values_list('color', flat=True).distinct()
     no_of_available = Watch.objects.all().count
     query = request.GET.get("q")
     category_query = request.GET.get("query")
@@ -55,6 +58,7 @@ def watch_list(request):
     context = {
         "watch_list": watch_list,
         "brand_list": brand_list,
+        "color_list": color_list,
         "List": "List",
         "no_of_available": no_of_available
     }
@@ -82,15 +86,26 @@ def watch_list(request):
 
 def filter(request):
     brand_list = Brand.objects.all()
-    if request.method == "POST":
-        filter_list = []
-    else:
-        search_text = ''
+    filtered_list = Watch.objects.all()
 
-    watch_list = Watch.objects.filter(name__icontains=search_text)
+        # selected_color = request.POST.getlist('selected_color')
+    selected_color = request.POST.getlist('selected_color[]')
+    selected_brand = request.POST.getlist('selected_brand[]')
+    filter_price_max = request.POST['filter_price_max']
+    filter_price_min = request.POST['filter_price_min']
+    print(filter_price_max)
+    print(filter_price_min)
+    filtered_list = filtered_list.filter(price__gt = filter_price_min)
+    # if selected_color:
+    #     filtered_list = filtered_list.filter(color__in = selected_color)
+    if selected_brand:
+        filtered_list = filtered_list.filter(watch_brand__name__in = selected_brand)
+    if selected_color:
+        filtered_list = filtered_list.filter(color__in = selected_color)
 
     context = {
-        "watch_list": watch_list,
+        "filtered_list": filtered_list,
+        'selected_brand': selected_brand,
     }
     return render(request, "watch/search_result.html",context)
 

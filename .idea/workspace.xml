@@ -2,214 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c38a93d-9bfb-49ca-8be0-c866f5b727ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/client_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/client_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/client_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/client_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/img_small_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/img_small_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/slide_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/slide_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/slide_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/slide_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/amelia/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/amelia/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/bootshop/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/businessltd/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/cerulean/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/css/font-awesome-ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/css/multirange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/cyborg/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/museo_slab_300-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/museo_slab_300-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/museo_slab_500-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/museo_slab_500-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/proximanova-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/font/proximanova-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/18watch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/carousel/banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/headerRepeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/ico-cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/ico/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/lightbox/Close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/lightbox/lightbox-blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/lightbox/lightbox-btn-close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/lightbox/lightbox-btn-next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/lightbox/lightbox-btn-prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/lightbox/lightbox-ico-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/payment_methods.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/b2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/b3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/kindle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/large/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/large/f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/large/f2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/large/f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/products/panasonic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/tabRepeatInactive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/images/youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/journal/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/bootshop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/google-code-prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/google-code-prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/jquery.elevatezoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/jquery.lightbox-0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/js/multirange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/accordion.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/amelia.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/amelia/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/amelia/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/bootshop.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/bootshop/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/bootshop/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/classified.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/font-awesome-ie7.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/hero-unit.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/labels-badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/layouts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/responsive-1200px-min.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/responsive-767px-max.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/responsive-768px-979px.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/responsive-navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/simplex.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/simplex/bootswatch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/simplex/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/sprites.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/readable/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/simplex/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/slate/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/spacelab/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/spruce/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/spruce/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/superhero/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/amelia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/bootshop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/businessltd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/cerulean.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/cyborg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/journal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/readable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/simplex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/slate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/spacelab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/spruce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/superhero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/clr/united.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/hideme.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern16~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern17~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern19~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern20~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/pattern/pattern9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/images/styleTgl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/theamswitcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/switch/themeswitch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/watch/static/watch/united/bootstrap.min.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mywatch/settings.py" afterPath="$PROJECT_DIR$/mywatch/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/models.py" afterPath="$PROJECT_DIR$/watch/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/static/watch/css/style.css" afterPath="$PROJECT_DIR$/watch/static/watch/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/static/watch/js/ajax.js" afterPath="$PROJECT_DIR$/watch/static/watch/js/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/static/watch/js/main.js" afterPath="$PROJECT_DIR$/watch/static/watch/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/base.html" afterPath="$PROJECT_DIR$/watch/templates/watch/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/index.html" afterPath="$PROJECT_DIR$/watch/templates/watch/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/product.html" afterPath="$PROJECT_DIR$/watch/templates/watch/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/product_detail.html" afterPath="$PROJECT_DIR$/watch/templates/watch/product_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/watch.html" afterPath="$PROJECT_DIR$/watch/templates/watch/watch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/search_result.html" afterPath="$PROJECT_DIR$/watch/templates/watch/search_result.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/urls.py" afterPath="$PROJECT_DIR$/watch/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/views.py" afterPath="$PROJECT_DIR$/watch/views.py" />
     </list>
@@ -226,33 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/watch/templates/watch/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="182">
+              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -261,17 +40,19 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/templates/watch/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+            <state relative-caret-position="221">
+              <caret line="153" column="10" lean-forward="false" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#h4#1;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/watch/static/watch/js/ajax.js">
+      <file leaf-file-name="search_result.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/watch/templates/watch/search_result.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -280,26 +61,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/watch/static/watch/css/base.css">
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/watch/static/watch/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="7" lean-forward="false" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+            <state relative-caret-position="68">
+              <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/templates/watch/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="164" column="45" lean-forward="false" selection-start-line="164" selection-start-column="45" selection-end-line="164" selection-end-column="45" />
-              <folding>
-                <element signature="e#393#400#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#6748#6754#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="72" column="59" lean-forward="false" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -317,8 +94,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/static/watch/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="216" column="26" lean-forward="false" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="239" column="45" lean-forward="false" selection-start-line="239" selection-start-column="45" selection-end-line="239" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -327,8 +104,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/static/watch/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71782">
-              <caret line="5815" column="16" lean-forward="false" selection-start-line="5815" selection-start-column="16" selection-end-line="5815" selection-end-column="16" />
+            <state relative-caret-position="2312">
+              <caret line="4093" column="11" lean-forward="false" selection-start-line="4093" selection-start-column="11" selection-end-line="4093" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -337,8 +114,20 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="180">
+              <caret line="97" column="69" lean-forward="false" selection-start-line="97" selection-start-column="69" selection-end-line="97" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/watch/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -355,9 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>static</find>
-      <find>watch</find>
-      <find>music</find>
       <find>album</find>
       <find>user</find>
       <find>wrapper</find>
@@ -375,13 +161,19 @@
       <find>our brand</find>
       <find>our</find>
       <find>pic-1</find>
-      <find>ajax</find>
       <find>fh5co-main</find>
       <find>all products</find>
       <find>brand.</find>
       <find>fancybox</find>
       <find>FBB040</find>
       <find>booster</find>
+      <find>color</find>
+      <find>jquery-ui</find>
+      <find>jquery</find>
+      <find>int</find>
+      <find>price</find>
+      <find>ajax</find>
+      <find>hi</find>
     </findStrings>
     <replaceStrings>
       <replace>media/images/</replace>
@@ -401,17 +193,19 @@
         <option value="$PROJECT_DIR$/watch/static/watch/css/main.css" />
         <option value="$PROJECT_DIR$/mywatch/urls.py" />
         <option value="$PROJECT_DIR$/watch/templates/watch/watch.html" />
-        <option value="$PROJECT_DIR$/watch/urls.py" />
-        <option value="$PROJECT_DIR$/watch/views.py" />
         <option value="$PROJECT_DIR$/mywatch/settings.py" />
-        <option value="$PROJECT_DIR$/watch/models.py" />
         <option value="$PROJECT_DIR$/watch/static/watch/css/base.css" />
         <option value="$PROJECT_DIR$/watch/templates/watch/product_detail.html" />
-        <option value="$PROJECT_DIR$/watch/static/watch/js/main.js" />
         <option value="$PROJECT_DIR$/watch/templates/watch/index.html" />
-        <option value="$PROJECT_DIR$/watch/templates/watch/product.html" />
         <option value="$PROJECT_DIR$/watch/static/watch/css/style.css" />
+        <option value="$PROJECT_DIR$/watch/urls.py" />
         <option value="$PROJECT_DIR$/watch/templates/watch/base.html" />
+        <option value="$PROJECT_DIR$/watch/static/watch/js/main.js" />
+        <option value="$PROJECT_DIR$/watch/models.py" />
+        <option value="$PROJECT_DIR$/watch/views.py" />
+        <option value="$PROJECT_DIR$/watch/static/watch/js/ajax.js" />
+        <option value="$PROJECT_DIR$/watch/templates/watch/product.html" />
+        <option value="$PROJECT_DIR$/watch/templates/watch/search_result.html" />
       </list>
     </option>
   </component>
@@ -438,21 +232,21 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -462,11 +256,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -484,11 +278,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -510,11 +304,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
+              <option name="myItemId" value="18watch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -527,85 +321,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mywatch_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -782,23 +504,23 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27402702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27323273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -817,14 +539,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/watch/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/watch/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -845,17 +559,17 @@
         <state relative-caret-position="585">
           <caret line="39" column="63" lean-forward="false" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,11 +578,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#393#400#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +600,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -914,17 +626,17 @@
         <state relative-caret-position="75">
           <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -933,11 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-          <folding>
-            <element signature="e#393#400#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -990,17 +700,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1094,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/watch/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/images/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1123,31 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/watch/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/watch/static/watch/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="7" lean-forward="false" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/watch/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,18 +833,34 @@
         <state relative-caret-position="660">
           <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/static/watch/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628">
+          <caret line="117" column="7" lean-forward="false" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,49 +872,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/watch/templates/watch/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/watch/static/watch/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/watch/static/watch/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="216" column="26" lean-forward="false" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/watch/static/watch/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71782">
-          <caret line="5815" column="16" lean-forward="false" selection-start-line="5815" selection-start-column="16" selection-end-line="5815" selection-end-column="16" />
+        <state relative-caret-position="2312">
+          <caret line="4093" column="11" lean-forward="false" selection-start-line="4093" selection-start-column="11" selection-end-line="4093" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/watch/templates/watch/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="164" column="45" lean-forward="false" selection-start-line="164" selection-start-column="45" selection-end-line="164" selection-end-column="45" />
+        <state relative-caret-position="105">
+          <caret line="72" column="59" lean-forward="false" selection-start-line="72" selection-start-column="59" selection-end-line="72" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="97" column="69" lean-forward="false" selection-start-line="97" selection-start-column="69" selection-end-line="97" selection-end-column="69" />
           <folding>
-            <element signature="e#393#400#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/static/watch/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="239" column="45" lean-forward="false" selection-start-line="239" selection-start-column="45" selection-end-line="239" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/static/watch/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/templates/watch/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="153" column="10" lean-forward="false" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#h4#1;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/templates/watch/search_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

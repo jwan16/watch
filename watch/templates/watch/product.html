@@ -7,6 +7,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 col-md-push-3">
+ <script>
+
+  </script>
+
+
+					<div id="search-results" >
 					{% for watch in watch_list %}
 						<div class="col-xs-6 col-sm-3">
 							<div class="card">
@@ -33,9 +39,11 @@
 							</div>
 						</div>
 					{% endfor %}
+					</div>
 				</div>
 
 				<!--Filter Panel -->
+				{% csrf_token %}
 				<form id="filter_panel"  class="hidden-sm">
 				<div class="col-md-3 col-md-pull-9">
 					<div id="accordion" class="panel panel-primary behclick-panel">
@@ -49,44 +57,15 @@
 										<i class="indicator fa fa-caret-down" aria-hidden="true"></i> Price
 									</a>
 								</h4>
+								<h4>
+							  <input type="text" id="amount" readonly style="border:0; color:#337ab7; font-weight:bold; width:140px">
+								</h4>
+								<div id="slider-range" style="margin-bottom:15px"></div>
 							</div>
-							<div id="collapse0" class="panel-collapse collapse in" >
 
-								<ul class="list-group">
-									<li class="list-group-item">
-										<div class="checkbox">
-											<label>
-												<input type="checkbox" value="">
-												0 - 1000$
-											</label>
-										</div>
-									</li>
-									<li class="list-group-item">
-										<div class="checkbox" >
-											<label>
-												<input type="checkbox" value="">
-												1000$ - 2000$
-											</label>
-										</div>
-									</li>
-									<li class="list-group-item">
-										<div class="checkbox"  >
-											<label>
-												<input type="checkbox" value="">
-												2000$ - 6000$
-											</label>
-										</div>
-									</li>
-									<li class="list-group-item">
-										<div class="checkbox"  >
-											<label>
-												<input type="checkbox" value="">
-												More Than 6000$
-											</label>
-										</div>
-									</li>
-								</ul>
-							</div>
+
+
+
 
 							<div class="panel-heading " >
 								<h4 class="panel-title">
@@ -103,7 +82,7 @@
 									<li class="list-group-item">
 										<div class="checkbox">
 											<label>
-												<input type="checkbox" value="{{ brand.name }}" id="filter_{{ brand.name }}">
+												<input type="checkbox" value="{{ brand.name }}" class="brand" >
 												{{ brand.name }}
 											</label>
 										</div>
@@ -121,30 +100,16 @@
 							</div>
 							<div id="collapse3" class="panel-collapse collapse in">
 								<ul class="list-group">
+									{% for color in color_list %}
 									<li class="list-group-item">
 										<div class="checkbox">
 											<label>
-												<input type="checkbox" value="">
-												red
+												<input type="checkbox" class="color" value="{{ color }}">
+												{{ color }}
 											</label>
 										</div>
 									</li>
-									<li class="list-group-item">
-										<div class="checkbox" >
-											<label>
-												<input type="checkbox" value="">
-												blue
-											</label>
-										</div>
-									</li>
-									<li class="list-group-item">
-										<div class="checkbox"  >
-											<label>
-												<input type="checkbox" value="">
-												green
-											</label>
-										</div>
-									</li>
+									{% endfor %}
 								</ul>
 							</div>
 							<div class="panel-heading" >
@@ -187,7 +152,6 @@
 			</div>
 		</div>
 	</div>
-
 <script type="text/javascript">
 		var filter_brand_list = [{% for brand in brand_list %}"{{ brand.name }}",{% endfor %}];
 

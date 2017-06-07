@@ -4,6 +4,7 @@ from .views import (
     index_view,
     watch_list,
     detail_list,
+    filter,
 )
 
 app_name = 'watch'
@@ -13,5 +14,5 @@ urlpatterns = [
     url(r'^$', index_view, name='index'),
     url(r'^watch/$', watch_list, name='watch'),
     url(r'^watch/(?P<pk>[0-9]+)$', detail_list.as_view(), name='detail'),
-    # url(r'^search/$', search_name)
+    url(r'^search/$', filter)
 ]
