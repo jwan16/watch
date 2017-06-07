@@ -1,3 +1,4 @@
+
 ;(function () {
 	
 	'use strict';
@@ -226,3 +227,20 @@ $(document).ready(function() {
 		closeEffect	: 'none'
 	});
 });
+
+// Price range
+$( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 30000,
+      values: [ 0, 30000 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $("#filter_panel").trigger("change");
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+
+  } );
