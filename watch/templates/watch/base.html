@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>18 Watch &mdash; A free HTML5 Template by FREEHTML5.CO</title>
+	<title>{% block title %}{% endblock %}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -92,7 +92,7 @@
 						<li {% if request.path == '/' %} class="active" {% endif %}><a href="/"><span>Home <span class="border"></span></span></a></li>
 						<li {% if request.path == '/watch/' %} class="active" {% endif %}><a href="/watch" ><span>All Products<span class="border"></span></span></a></li>
 						<li><a href="left-sidebar.html"><span>About Us <span class="border"></span></span></a></li>
-						<li><a href="elements.html"><span>Contact Us <span class="border"></span></span></a></li>
+						<li><a href="/contact/"><span>Contact Us <span class="border"></span></span></a></li>
 					</ul>
 					<div id="custom-search-input">
 					<form href="/get/" class="input-group " role="search" method="GET" action="/watch" >

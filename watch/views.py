@@ -18,6 +18,9 @@ from functools import reduce
 #
 #     def get_queryset(self):
 #         return Brand.objects.all()
+def contact_view(request):
+   return render_to_response('watch/contact_us.html')
+
 def index_view(request):
     brand_list = Brand.objects.all()
     watch_list = Watch.objects.all()
