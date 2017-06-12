@@ -2,147 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c38a93d-9bfb-49ca-8be0-c866f5b727ad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/amelia/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/amelia/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/bootshop/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/businessltd/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/cerulean/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/font-awesome-ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/icomoon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/multirange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/owl.carousel.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/owl.theme.default.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/cyborg/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/museo_slab_300-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/museo_slab_300-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/museo_slab_500-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/museo_slab_500-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/proximanova-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/font/proximanova-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/bootstrap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/icomoon/icomoon.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/icomoon/icomoon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/icomoon/icomoon.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/icomoon/icomoon.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/icomoon/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/fonts/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/18watch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/carousel/banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/client_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/client_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/client_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/client_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/img_small_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/img_small_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/slide_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/slide_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/slide_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/images/slide_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/jquery.countTo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/jquery.stellar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/jquery.waypoints.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/watch/js/respond.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/watch/static/watch/css/product/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/watch/static/watch/css/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/watch/static/watch/css/product/bootstrap.min.css" afterPath="$PROJECT_DIR$/watch/static/watch/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/static/watch/js/main.js" afterPath="$PROJECT_DIR$/watch/static/watch/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/base.html" afterPath="$PROJECT_DIR$/watch/templates/watch/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/index.html" afterPath="$PROJECT_DIR$/watch/templates/watch/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/watch/templates/watch/product_detail.html" afterPath="$PROJECT_DIR$/watch/templates/watch/product_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mywatch/settings.py" afterPath="$PROJECT_DIR$/mywatch/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -167,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/watch/templates/watch/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1510">
@@ -277,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mywatch/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="52" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="52" />
+            <state relative-caret-position="194">
+              <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -354,7 +214,6 @@
         <option value="$PROJECT_DIR$/watch/static/watch/js/ajax.js" />
         <option value="$PROJECT_DIR$/watch/templates/watch/product.html" />
         <option value="$PROJECT_DIR$/watch/templates/watch/search_result.html" />
-        <option value="$PROJECT_DIR$/mywatch/settings.py" />
         <option value="$PROJECT_DIR$/watch/views.py" />
         <option value="$PROJECT_DIR$/watch/urls.py" />
         <option value="$PROJECT_DIR$/watch/templates/watch/contact_us.html" />
@@ -363,6 +222,7 @@
         <option value="$PROJECT_DIR$/watch/static/watch/js/main.js" />
         <option value="$PROJECT_DIR$/watch/templates/watch/product_detail.html" />
         <option value="$PROJECT_DIR$/watch/templates/watch/base.html" />
+        <option value="$PROJECT_DIR$/mywatch/settings.py" />
       </list>
     </option>
   </component>
@@ -453,58 +313,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="18watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="18watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="18watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="18watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="watch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1017,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mywatch/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="52" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/watch/templates/watch/product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1122,6 +922,14 @@
             <element signature="n#style#0;n#td#3;n#tr#0;n#table#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#3;n#tr#0;n#table#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mywatch/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="27" column="60" lean-forward="false" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
