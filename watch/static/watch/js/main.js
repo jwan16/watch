@@ -244,3 +244,5 @@ $( function() {
       " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
   } );
+
+

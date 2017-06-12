@@ -1,29 +1,72 @@
-{% load static %}
-<link rel="stylesheet" href="{% static 'watch/css/product/bootstrap.min.css' %}">
-<link rel="stylesheet" href="{% static 'watch/css/product/bootstrap.responsive.min.css' %}">
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'watch/css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'watch/css/bootstrap.responsive.min.css' %}">
+<script src="{% static 'watch/js/jquery.min.js' %}"></script>
+<script src="{% static 'watch/js/respond.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'watch/js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'watch/js/bootstrap.min.js' %}"></script>
+	<!-- Owl carousel -->
+	<script src="{% static 'watch/js/owl.carousel.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'watch/js/jquery.waypoints.min.js' %}"></script>
+	<!-- Magnific Popup -->
+	<script src="{% static 'watch/js/jquery.magnific-popup.min.js' %}"></script>
+<script>
+	jQuery(document).ready(function($) {
+
+		//Handles the carousel thumbnails
+		$('[id^=carousel-selector-]').click(function () {
+		var id_selector = $(this).attr("id");
+		try {
+			var id = /-(\d+)$/.exec(id_selector)[1];
+			console.log(id_selector, id);
+			jQuery('#myCarousel').carousel(parseInt(id));
+		} catch (e) {
+			console.log('Regex failed!', e);
+		}
+	});
+		// When the carousel slides, auto update the text
+		$('#myCarousel').on('slid.bs.carousel', function (e) {
+				 var id = $('.item.active').data('slide-number');
+				$('#carousel-text').html($('#slide-content-'+id).html());
+		});
+	});
+</script>
+	<!-- Main JS -->
 
 	<div class="row">
 			<div id="gallery" class="span4">
-            <a href="/media/{{ watch.pic }}" title="Fujifilm FinePix S2950 Digital Camera">
-				<img src="/media/{{ watch.pic }}" style="width:100%" alt="Fujifilm FinePix S2950 Digital Camera">
-            </a>
+            	<div class="carousel slide" id="myCarousel">
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						<div class="active item" data-slide-number="0">
+							<img src="/media/{{ watch.pic }}"></div>
+
+						<div class="item" data-slide-number="1">
+							<img src="/media/{{ watch.pic }}"></div>
+
+						<div class="item" data-slide-number="2">
+							<img src="/media/{{ watch.pic }}"></div>
+
+
+					</div>
+
+				</div>
 			<div id="differentview" class="moreOptopm carousel slide">
                 <div class="carousel-inner">
                   <div class="item active">
-                   <a href="/media/{{ watch.pic }}"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
-                   <a href="/media/{{ watch.pic }}"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
-                   <a href="/media/{{ watch.pic }}"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
+                   <a id="carousel-selector-0"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
+                   <a id="carousel-selector-1"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
+                   <a id="carousel-selector-2"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
                   </div>
-                  <div class="item">
-                   <a href="/media/{{ watch.pic }}"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
-                   <a href="/media/{{ watch.pic }}"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
-                   <a href="/media/{{ watch.pic }}"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>
-                  </div>
+                  <!--<div class="item">-->
+                   <!--<a id="carousel-selector-0"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>-->
+                   <!--<a id="carousel-selector-1"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>-->
+                   <!--<a id="carousel-selector-2"> <img style="width:32%" src="/media/{{ watch.pic }}" alt=""></a>-->
+                  <!--</div>-->
                 </div>
-              <!--
-			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-              <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-			  -->
               </div>
 
 
@@ -352,9 +395,12 @@
 			<hr class="soft">
 			</div>
 		</div>
-				<br class="clr">
+			<br class="clr">
 					 </div>
 		</div>
           </div>
 
-	
+	</div>
+</div>
+</div> </div>
+</div>

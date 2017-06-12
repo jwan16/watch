@@ -37,13 +37,31 @@
 
 	</div>
 </div>
+<table class="hidden-xs hidden-sm" style="width:100%">
+	<tr>
+		<td class="text-center" style="background-color:#9C8D8A; height:200px; width:25%"><img src="/media/icon/featured.png" style="height:100px; width:auto; color:white"></td>
+		<td class="text-center" style="background-color:#F9F4EE; height:200px; width:25%"><img src="/media/icon/man.png" style="height:100px; width:auto"></td>
+		<td class="text-center" style="background-color:#EDE7E7; height:200px; width:25%"><img src="/media/icon/female.png" style="height:100px; width:auto"></td>
+		<td class="text-center" style="background-color:#E72E2C; height:200px; width:25%"><img src="/media/icon/man.png" style="height:100px; width:auto"></td>
+	</tr>
+</table>
 
-<div class="row hidden-sm hidden-xs">
-	<div class="col-md-3 text-center" style="background-color:#9C8D8A; height:200px; ">hih</div>
-	<div class="col-md-3 text-center" style="background-color:#F9F4EE; height:200px; ">hi</div>
-	<div class="col-md-3 text-center" style="background-color:#EDE7E7; height:200px; ">hi</div>
-	<div class="col-md-3 text-center" style="background-color:#E72E2C; height:200px; ">hi</div>
-</div>
+<table class="hidden-md hidden-lg" style="width:100%;">
+	<tr>
+		<td class="" style="width:25%; padding:10px">
+			<div class="circle-icon"><div class="circle-icon__inner"><div class="circle-icon__wrapper"><div class="circle-icon__content">hihihi</div></div></div></div>
+		</td>
+		<td class="text-center" style="width:25%; padding:10px">
+			<div style="position:releative; border-radius:50%; width:100%; height:auto; padding-top:100%; background:#e1e1e1;"></div>
+		</td>
+		<td class="text-center" style="width:25%; padding:10px">
+			<div style="position:releative; border-radius:50%; width:100%; height:auto; padding-top:100%; background:#e1e1e1;"></div>
+		</td>
+		<td class="text-center" style="width:25%; padding:10px">
+			<div style="position:releative; border-radius:50%; width:100%; height:auto; padding-top:100%; background:#e1e1e1;"></div>
+		</td>
+	</tr>
+</table>
 
 <div class="container" style="padding-top:40px">
 
@@ -62,7 +80,7 @@
 						{% for watch in feature_list %}
 						<div class="col-xs-6 col-sm-3">
 							<div class="card">
-								<a class="img-card" href="http://www.fostrap.com/">
+								<a class="img-card various" data-fancybox-type="iframe" href="/watch/{{ watch.id }}">
 									<img src="media/{{ watch.pic }}"/>
 								</a>
 								<br />
@@ -97,7 +115,7 @@
 						{% for watch in latest_list %}
 						<div class="col-xs-6 col-sm-3">
 							<div class="card">
-								<a class="img-card" href="http://www.fostrap.com/">
+								<a class="img-card various" data-fancybox-type="iframe" href="/watch/{{ watch.id }}">
 									<img src="media/{{ watch.pic }}"/>
 								</a>
 								<br />
