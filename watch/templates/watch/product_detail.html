@@ -3,16 +3,17 @@
 <link rel="stylesheet" href="{% static 'watch/css/bootstrap.responsive.min.css' %}">
 <script src="{% static 'watch/js/jquery.min.js' %}"></script>
 <script src="{% static 'watch/js/respond.min.js' %}"></script>
-	<!-- jQuery Easing -->
-	<script src="{% static 'watch/js/jquery.easing.1.3.js' %}"></script>
-	<!-- Bootstrap -->
-	<script src="{% static 'watch/js/bootstrap.min.js' %}"></script>
-	<!-- Owl carousel -->
-	<script src="{% static 'watch/js/owl.carousel.min.js' %}"></script>
-	<!-- Waypoints -->
-	<script src="{% static 'watch/js/jquery.waypoints.min.js' %}"></script>
-	<!-- Magnific Popup -->
-	<script src="{% static 'watch/js/jquery.magnific-popup.min.js' %}"></script>
+<!-- jQuery Easing -->
+<script src="{% static 'watch/js/jquery.easing.1.3.js' %}"></script>
+<!-- Bootstrap -->
+<script src="{% static 'watch/js/bootstrap.min.js' %}"></script>
+<!-- Owl carousel -->
+<script src="{% static 'watch/js/owl.carousel.min.js' %}"></script>
+<!-- Waypoints -->
+<script src="{% static 'watch/js/jquery.waypoints.min.js' %}"></script>
+<!-- Magnific Popup -->
+<script src="{% static 'watch/js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'watch/js/ddpowerzoomer.js' %}"></script>
 <script>
 	jQuery(document).ready(function($) {
 
@@ -34,6 +35,19 @@
 		});
 	});
 </script>
+
+<!--Power Zoom-->
+<script type="text/javascript">
+jQuery(document).ready(function($){ //fire on DOM ready
+ $('#myimage').addpowerzoom();
+ $('img.vacation').addpowerzoom({
+		defaultpower: 2,
+		powerrange: [2,5],
+		largeimage: null,
+		magnifiersize: [100,100] //<--no comma following last option!
+})
+
+</script>
 	<!-- Main JS -->
 
 	<div class="row">
@@ -42,7 +56,8 @@
 					<!-- Carousel items -->
 					<div class="carousel-inner">
 						<div class="active item" data-slide-number="0">
-							<img src="/media/{{ watch.pic }}"></div>
+							<img id="myimage" src="/media/{{ watch.pic }}" />
+							<img data-magnifyby="2" src="/media/{{ watch.pic }}" etc ></div>
 
 						<div class="item" data-slide-number="1">
 							<img src="/media/{{ watch.pic }}"></div>
